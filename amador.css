@@ -1,0 +1,62 @@
+/*Project Name: Design your own Website (HW16)Author: Alyssa GarciaDate Last Modified: April 8, 2019*//*Set the body background image, text color, and font style*/body { background-image: url(morocco.png);
+	color: #C0362C;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+/* Set the header background */header { background-color: #0097AC;
+	background-image: url("hotelamadorlogo.jpg");
+	background-repeat: no-repeat;
+	height: 100 px;
+}
+
+/* Set h1 element */h1 {	 color: #C0362C;
+	padding-top: 45 px;
+	padding-left: 200 px;
+	font-size: 3em;
+	text-align: center;
+ 	color: #C0362C;
+	margin-bottom: 0;
+}
+
+/*Set nav element */
+nav { 	font-weight: bold;
+	padding-top: .5em;
+	padding-right: .5em;
+	padding-bottom: .5em;
+	padding-left: 2em;
+	text-decoration: none;
+	background-color:#0097AC;
+}
+
+/*set main element*/
+main { padding-left: 2em;
+	padding-right: 2em;
+	padding-bottom: 2em;
+}
+
+/*set footer */
+footer { background-color: #0097AC;
+	font-size: .600em;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 10px;
+	border-top: 2px solid #000000;
+}
+
+/*set wrapper id*/
+#wrapper {background-color: #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 700px;
+	max-width:1280px;
+	box-shadow: 5px 5px 5px #1e1e1e;
+}
+
+/* style all elements with class="hotel"*/
+.hotel { color: #C0362C;
+	font-size: 1.2em;
+}
+
+/* set img element*/
+img { padding-bottom: 10px;
+}
